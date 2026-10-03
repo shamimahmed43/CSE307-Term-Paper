@@ -1,0 +1,17 @@
+frames,algorithm,overall_faults,overall_hit_ratio
+3,FIFO,1524,0.238
+3,LRU,1485,0.2575
+3,Learned,1443,0.2785
+3,Optimal,1137,0.4315
+5,FIFO,1304,0.348
+5,LRU,1252,0.374
+5,Learned,1271,0.3645
+5,Optimal,860,0.57
+7,FIFO,1144,0.428
+7,LRU,1067,0.4665
+7,Learned,1094,0.453
+7,Optimal,696,0.652
+10,FIFO,964,0.518
+10,LRU,865,0.5675
+10,Learned,1328,0.336
+10,Optimal,532,0.734

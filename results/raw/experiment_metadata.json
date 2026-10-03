@@ -1,0 +1,24 @@
+{
+  "experiment_parameters": {
+    "frames": 5,
+    "trace_length": 2000,
+    "shift_index": 1000,
+    "universe_size": 50,
+    "seed": 42,
+    "num_train_traces": 5,
+    "train_seed_start": 100,
+    "max_depth": 4,
+    "output_dir": "results",
+    "figures_dir": "figures",
+    "sensitivity": true
+  },
+  "workload_metadata": {
+    "seed": 42,
+    "trace_length": 2000,
+    "shift_index": 1000,
+    "universe_size": 50,
+    "locality_working_set_size": 8,
+    "phase1_description": "Locality-heavy with small working set (8 pages) and sequential scans",
+    "phase2_description": "Random and shifting burst clusters across full page universe (50 pages)"
+  }
+}

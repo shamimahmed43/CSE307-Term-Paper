@@ -1,0 +1,13 @@
+algorithm,segment,references,hits,page_faults,hit_ratio,fault_ratio
+FIFO,before_shift,1000,481,519,0.481,0.519
+FIFO,after_shift,1000,215,785,0.215,0.785
+FIFO,overall,2000,696,1304,0.348,0.652
+LRU,before_shift,1000,532,468,0.532,0.468
+LRU,after_shift,1000,216,784,0.216,0.784
+LRU,overall,2000,748,1252,0.374,0.626
+Learned,before_shift,1000,596,404,0.596,0.404
+Learned,after_shift,1000,133,867,0.133,0.867
+Learned,overall,2000,729,1271,0.3645,0.6355
+Optimal,before_shift,1000,705,295,0.705,0.295
+Optimal,after_shift,1000,435,565,0.435,0.565
+Optimal,overall,2000,1140,860,0.57,0.43
